@@ -1,0 +1,95 @@
+{
+  "contacts": [
+    {
+      "id": "mat0001",
+      "name": "Abdoulaye Sarr",
+      "company": "Insoft",
+      "email": "sarr@gmail.com",
+      "title": "Ingenieur",
+      "mobile": "772859283",
+      "photo": "https://images.unsplash.com/photo-1530821232314-604f58821dd4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "groupId": "3",
+      "groupeId": "3"
+    },
+    {
+      "id": "mat0002",
+      "name": "Ibou Anne",
+      "company": "Insoft",
+      "email": "anne@gmail.com",
+      "title": "Ingenieur",
+      "mobile": "774152154",
+      "photo": "https://images.unsplash.com/photo-1534279059422-cd3ca13f5cd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cHJvZmlsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "groupId": "2",
+      "groupeId": "4"
+    },
+    {
+      "id": "mat0003",
+      "name": "Cheikh Tidiane Ndiaye",
+      "company": "ISM",
+      "email": "ndiaye@gmail.com",
+      "title": "Etudiant",
+      "mobile": "774163218",
+      "photo": "https://images.unsplash.com/photo-1556711242-bb1640aad8d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHByb2ZpbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "groupId": "5",
+      "groupeId": "2"
+    },
+    {
+      "id": "mat0004",
+      "name": "Adama",
+      "company": "ISM",
+      "email": "mboup@gmail.com",
+      "title": "Etudiant",
+      "mobile": "721472569",
+      "photo": "https://images.unsplash.com/photo-1543321927-af60829b19f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHByb2ZpbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "groupId": "4",
+      "groupeId": "2"
+    },
+    {
+      "id": "mat006",
+      "name": "Germaine Diop",
+      "company": "Teranga",
+      "email": "diop@gmail.com",
+      "title": "Administration",
+      "mobile": "775749645",
+      "photo": "https://images.unsplash.com/photo-1551385159-fee06cfebf8f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHByb2ZpbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "groupId": "6",
+      "groupeId": "3"
+    },
+    {
+      "name": "diarra",
+      "photo": "https://images.unsplash.com/photo-1659016376082-34a9256c66c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyN3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+      "email": "diarra@gmail.com",
+      "mobile": 564153,
+      "company": "Keur Madior",
+      "title": "etudiant",
+      "groupeId": "2",
+      "id": "rlTSjwu"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Colleague"
+    },
+    {
+      "id": "2",
+      "name": "Friend"
+    },
+    {
+      "id": "3",
+      "name": "Family"
+    },
+    {
+      "id": "4",
+      "name": "Service"
+    },
+    {
+      "id": "5",
+      "name": "Community"
+    },
+    {
+      "id": "6",
+      "name": "Social"
+    }
+  ]
+}
