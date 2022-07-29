@@ -1,0 +1,88 @@
+<div class="container mt-3">
+  <div class="row">
+    <div class="col">
+      <p class="h3 fw-bold text-danger">
+        Edit Contact
+      </p>
+      <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis dolores explicabo
+        molestias odit reiciendis
+        sit tempora vero! Amet aut, fugiat impedit, iste labore nam natus nihil, possimus repellendus rerum sunt.</p>
+    </div>
+  </div>
+</div>
+<!-------------------------------contact form--------------------------------->
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <form (submit)="submitUpadte()">
+        <div class="mb-2">
+          <input
+            [(ngModel)]="contact.name"
+            [value]="contact.name"
+            class="form-control"
+            name="name"
+            placeholder="Name" required="true" type="text">
+        </div>
+        <div class="mb-2">
+          <input
+            [(ngModel)]="contact.photo"
+            [value]="contact.photo"
+            class="form-control"
+            name="photo"
+            placeholder="Photo Url" required="true" type="text">
+        </div>
+        <div class="mb-2">
+          <input
+            [(ngModel)]="contact.email"
+            [value]="contact.email"
+            class="form-control"
+            name="email"
+            placeholder="Email" required="true" type="email">
+        </div>
+        <div class="mb-2">
+          <input
+            [(ngModel)]="contact.mobile"
+            [value]="contact.mobile"
+            class="form-control"
+            name="mobile"
+            placeholder="Mobile" required="true" type="number">
+        </div>
+        <div class="mb-2">
+          <input
+            [(ngModel)]="contact.company"
+            [value]="contact.company"
+            class="form-control"
+            name="company"
+            placeholder="Company" required="true" type="text">
+        </div>
+        <div class="mb-2">
+          <input
+            [(ngModel)]="contact.title"
+            [value]="contact.title"
+            class="form-control"
+            name="title"
+            placeholder="Title" required="true" type="text">
+        </div>
+        <div class="mb-2">
+          <select
+            [(ngModel)]="contact.groupeId"
+            [value]="contact.groupeId"
+            class="form-control"
+            name="groupId"
+            required="true">
+            <option value="">Select a Group</option>
+            <option *ngFor="let group of groups" [value]="group.id">{{group.name}}</option>
+          </select>
+        </div>
+        <div class="mb-2">
+          <input class="btn btn-danger" type="submit" value="Update">
+          <a class="btn btn-dark ms-2" routerLink="/">Close</a>
+        </div>
+      </form>
+    </div>
+    <div class="col-sm-4">
+      <img [src]="contact.photo" alt=""
+           class="contact-img">
+    </div>
+  </div>
+</div>
